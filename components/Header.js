@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
-import styles from '../styles/Header.module.scss'
+import styles from '../styles/components/Header.module.scss'
 import { useState, useEffect } from "react";
 import Modal from "./Modal"
 import Image from 'next/image'
