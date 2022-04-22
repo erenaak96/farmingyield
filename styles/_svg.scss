@@ -1,0 +1,37 @@
+.icons-search{
+  mask: url('/svg/icon-search.svg') no-repeat;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      background: url('/svg/icon-search.svg') no-repeat !important;
+      background-size: contain !important;
+  }
+}
+.icons-close{
+  mask: url('/svg/icon-close.svg') no-repeat;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      background: url('/svg/icon-close.svg') no-repeat !important;
+      background-size: contain !important;
+  }
+}
+.icons-loader{
+  mask: url('/svg/icon-loader.svg') no-repeat;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      background: url('/svg/icon-loader.svg') no-repeat !important;
+      background-size: contain !important;
+  }
+}
+.icons-down{
+  mask: url('/svg/icon-down.svg') no-repeat;
+  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      background: url('/svg/icon-down.svg') no-repeat !important;
+      background-size: contain !important;
+  }
+}
+  
+  
+.svg-icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background: #fff;
+  -webkit-mask-size: contain;
+}

@@ -1,0 +1,44 @@
+body{
+    background: var(--bgPrimary);
+
+}
+.btn{
+    background: var(--bluePrimary);
+    width: 100%;
+    height: 48px; 
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: var(--fw5);
+    color: var(--fontPrimary);
+    &:hover{
+        background: var(--blueHover);
+    }
+    cursor: pointer;
+    &:disabled {
+        background: var(--buttonDisabled);
+        pointer-events: none;
+      }
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--scrollBarTrack);
+  
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--primarySunshine);
+  }
+  ::-moz-selection { background: var(--primaryDark); }
+  ::selection { background: var(--primaryDark); }
+  

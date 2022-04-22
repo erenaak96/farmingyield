@@ -1,0 +1,184 @@
+.container {
+  padding: 0 2rem;
+}
+.mainWrapper{
+  margin-top: 6rem;
+  @media (max-width:768px) {
+    margin-top: 61px; 
+  }
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  max-width: 90vw;
+  margin: auto;
+  align-items: start;
+  padding-top: 2.56rem;
+  @media (max-width:768px) {
+    padding-top: 0px;
+    padding-bottom: 5rem;
+    max-width: calc(100% - 42px) !important;
+  }
+  .mobileSide{
+    @media (max-width:768px) {
+        padding-right: 4.68rem !important;
+    }
+    @media (min-width:768px) and (max-width:1000px) {
+        display: none;
+    }
+  }
+  .sidebar{
+    padding: 2.18rem 2rem;
+    // padding-bottom: 7.68rem;
+    max-width: 304px;
+    background: var(--bgSecondary);
+    border-radius: 10px;
+    @media (max-width:768px) {
+      max-width: 100%;
+      margin-top: 2rem;
+    }
+    h2{
+      color: var(--fontPrimary);
+      font-weight: var(--fw7);
+    }
+    h3{
+      color: var(--fontSecondary);
+      font-weight: var(--fw5);
+      margin-top: 1rem;
+      line-height: 1.63rem;
+    }
+    img{
+      mix-blend-mode: screen;
+    }
+    p{
+      color: var(--fontLighten);
+      font-weight: var(--fw4);
+      font-size: 0.8125rem;
+      margin-top: .5rem;
+      line-height: 1.125rem;
+    }
+    .mb-text{
+      margin-bottom: 4.63rem;
+    }
+    h5{
+      color: var(--fontPrimary);
+      font-weight: var(--fw5);
+    }
+    ul{
+      hr{
+        border: none;
+        border-top: 2px solid var(--buttonDisabled);
+        margin-top: 1rem;
+      }
+      li{
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        color: var(--fontLighten);
+        font-size: 1.125rem;
+        cursor: pointer;
+        .number{
+          position: absolute;
+          color: var(--fontLighten);
+          font-size: 1.125rem;
+        }
+        &:hover{
+          h5{
+            margin-left: 5px;
+          }
+        }
+        .imageWrapper{
+          margin-left: 3.5rem;
+          display: flex;
+          align-items: center;
+          .detail{
+            margin-left: .5rem;
+            h5{
+               font-size: 0.8125rem;
+               transition: var(--fast);
+               color: var(--bluePrimary);
+               font-weight: var(--fw4);
+            }
+            span{
+              font-size: 1.125rem;
+              color: var(--fontGold);
+              margin-left: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  .form{
+      margin-top: 6rem;
+      width: 36.3vw;
+      max-width: 548px;
+      padding: 0px 20px;
+      @media (max-width:768px) {
+        max-width: 100%;
+        width: 100%;
+        margin-top: .75rem;
+        padding: 0px;
+      }
+      @media (min-width:768px) and (max-width:1000px) {
+        max-width: 100%;
+        width: 100%;
+        margin-top: 0px;
+      }
+      .buttons{
+        display: flex;
+        margin-top: 1.5rem;
+        margin-bottom: 3.5rem;
+        @media (max-width:768px){
+          margin-bottom: 3rem;
+        }
+        button{
+          &:last-child{
+            margin-left: 2rem;
+            @media (max-width:768px){
+              margin-left: 1.25rem;
+            }
+          }
+        }
+      }
+      .formGroup{
+        margin-top: 1.25rem;
+        div{
+          position: relative;
+          span{
+            position: absolute;
+            right: 1.5rem;
+            top: calc(50% - .5rem);
+            color: var(--fontLighten);
+            font-weight: var(--fw4);
+            font-size: 1rem;
+          }
+        }
+        h5{
+          font-weight: var(--fw5);
+          color: var(--fontSecondary);
+        }
+        input{
+          height: 3.5rem; 
+          width: 100%;
+          padding: 0 1.5rem;
+          background: var(--bgSecondary);
+          border: none;
+          border-radius: 10px;
+          margin-top: 0.4375rem;
+          color: var(--fontLighten);
+          font-size: 1rem;
+          font-weight: var(--fw4);
+        }
+      }
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .main{
+    flex-direction: column;
+  }
+}

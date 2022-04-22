@@ -1,0 +1,33 @@
+:root{
+    --white: #fff;
+    --bgPrimary : #141417;
+    --bgSecondary : #1E1E23;
+    --fontPrimary : #EFEFEF;
+    --fontSecondary : #BABABA;
+    --fontLighten : #797980;
+    --bluePrimary: #22ACE6;
+    --buttonDisabled: #49494D;
+    --fontGold: #FFC960;
+    --bgModal: #1E1E23;
+    --fontModal: #AAAAAA;
+
+    //RGBA
+    --primaryHover: rgba(20,20,23,0.75);
+    --blueHover: rgba(34,172,230,0.75);
+    --scrollBar: rgba(30,30,35,0.3);
+    --scrollBarTrack: rgba(30,30,35,0.7);
+    
+    // Transitions
+    --fast: all 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
+    --slow: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+    //Font Wei
+    --fw1: 100;
+    --fw2: 200;
+    --fw3: 300;
+    --fw4: 400;
+    --fw5: 500;
+    --fw6: 600;
+    --fw7: 700;
+}
+
